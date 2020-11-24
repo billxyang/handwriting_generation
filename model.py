@@ -28,7 +28,7 @@ def weights(name, shape):
     initializer=tf.contrib.layers.xavier_initializer()
     )
 
-
+# This is one important function
 def biases(name, shape):
   return tf.get_variable(
     name, 
