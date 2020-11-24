@@ -20,7 +20,7 @@ else:
 from tensorflow.python.ops import rnn_cell_impl
 
 
-# weights / biases initializer
+# weights / biases initializer.
 def weights(name, shape):
   return tf.get_variable(
     name, 
